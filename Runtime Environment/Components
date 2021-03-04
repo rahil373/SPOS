@@ -1,8 +1,26 @@
-1. Linker : It combines two or more separate object programs.
-Hence, as the name suggests it collects and links different files for the generation of machine code.
+1. Linker : It combines two or more separate object programs into single object file.
+    Hence, as the name suggests it collects and links different files for the generation of machine code.
+    Eg. In c, the scanf,printf and such functions are stored in different modules. Hence, linker links all these in the main program.
+    Linker is loaded in the program with help of loader
 
 2. Loader : It is responsible for taking maching code from secondary memory to primary memory. Hence, it allocates space in main memory and initiates the execution process.
 
-3. Interpreter : It is a LANGUAGE PROCESSOR which processes the code directly without generating a machine language program. It directly reads,analyzes,and execute them on virtual machines.
+3. Interpreter : It is a LANGUAGE PROCESSOR which processes the high level code to low level machine language. It directly reads,analyzes,and execute them on virtual machines WITHOUT creating an extra machine language code file.
+    It is similar to compiler but main difference is that a compiler read a whole source code at once whereas an interpreter read the source code line by line.
+    eg : C,C++ generates a .obj and .exe file using compiler, whereas Python does not.
+    Advantages: Easy to find errors line by line.
+    Disadvantages : It takes more time than compiler. Hence it is suitable for small programs.
+    Languages like Python, Ruby, JAVA, Kotlin.
 
-4. Operating system : It is an INTERFACE between users and hardware of a computer system. It manages all resources of computer.
+4. Compiler : It converts high level language into low level machine language. It checks for any errors, grammatical structure, syntax of whole program and then analyzes 
+
+5. Assembler : It translates assen=mbly language code into machine understandable program. The output result
+    of assembler is known as object file which is a combination of machine instructions as well as data required to store these instructions in memory.
+
+6. Operating system : It is an INTERFACE between users and hardware of a computer system. It manages all resources of computer.
+
+
+
+Sequence :
+
+Source Program ---> PRE PROCESSOR ---> Modified Source Program ---> COMPILER ---> Target assembly program ---> ASSEMBLER ---> relocatable machine code ---> LINKER/LOADER ---> target machine code
