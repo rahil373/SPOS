@@ -1,0 +1,8 @@
+1. Linker : It combines two or more separate object programs.
+Hence, as the name suggests it collects and links different files for the generation of machine code.
+
+2. Loader : It is responsible for taking maching code from secondary memory to primary memory. Hence, it allocates space in main memory and initiates the execution process.
+
+3. Interpreter : It is a LANGUAGE PROCESSOR which processes the code directly without generating a machine language program. It directly reads,analyzes,and execute them on virtual machines.
+
+4. Operating system : It is an INTERFACE between users and hardware of a computer system. It manages all resources of computer.
